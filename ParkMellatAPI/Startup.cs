@@ -35,7 +35,7 @@ namespace ParkMellatAPI
             services.AddScoped<IParkMellatRepository, ParkMellatRepository>();//after create Irepository and repository I Should Add Scope To Dependency Injection!!!
             services.AddControllers();
         }
-
+        //
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
